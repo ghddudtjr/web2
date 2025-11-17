@@ -1,4 +1,3 @@
-
 #자신이 만든 레포지토리(저장소)에 streamlit_app.py 만들고 다음 내용 복붙해서 집어넣기
 
 import streamlit as st
@@ -6,27 +5,13 @@ import pandas as pd
 
 # --- 1. 페이지 기본 설정 ---
 st.set_page_config(
-    page_title="Streamlit 마법 교실",
+    page_title="영석의 첫번째페이지",
     page_icon="🔮",
     layout="wide"
 )
 
 # --- 2. 페이지 타이틀 ---
-st.title("영석이의 첫번째 페이지")
-st.subheader("춘천고등학교만든 레포지토리(저장소)에 streamlit_app.py 만들고 다음 내용 복붙해서 집어넣기
-
-import streamlit as st
-import pandas as pd
-
-# --- 1. 페이지 기본 설정 ---
-st.set_page_config(
-    page_title="Streamlit 마법 교실",
-    page_icon="🔮",
-    layout="wide"
-)
-
-# --- 2. 페이지 타이틀 ---
-st.title("영석이의 첫번째 페이지")
+st.title("영석의첫번째페이지")
 st.subheader("춘천고등학교")
 st.markdown("---") # 구분선
 
@@ -210,7 +195,7 @@ with col1:
     st.image("https://www.streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png", caption="Streamlit 로고")
 
 with col2:
-    st.write("유튜브 동영상예제")
+    st.write("유튜브 동영상 예제")
     st.video("https://www.youtube.com/watch?v=qrqHlgqNTHo")
 
 # --- 10. 마무리 ---
